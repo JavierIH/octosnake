@@ -1,12 +1,18 @@
 #ifndef octosnake_h
 #define octosnake_h
 
+#include <Arduino.h>
 #include <Servo.h>
 
-//-- Macro for converting from degrees to radians
+#ifndef PI
+  #define PI 3.14159
+#endif
+
+// Macro for converting from degrees to radians
 #ifndef DEG2RAD
   #define DEG2RAD(g) ((g)*M_PI)/180
 #endif
+
 
 class Oscillator{
 

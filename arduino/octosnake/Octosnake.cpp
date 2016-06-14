@@ -1,4 +1,4 @@
-#include "octosnake.h"
+#include "Octosnake.h"
 #include <Servo.h>
 
 Oscillator::Oscillator(){
