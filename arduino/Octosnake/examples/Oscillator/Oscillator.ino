@@ -17,6 +17,8 @@ void setup() {
     oscillator.setPeriod(1200);     // sets the oscillation period: 1200 ms
     oscillator.setAmplitude(50);    // sets the oscillation amplitude: 40º
     oscillator.setPhase(90);        // sets the oscillation phase: 90º
+
+    oscillator.start();
 }
 
 void loop() {
